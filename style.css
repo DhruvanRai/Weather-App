@@ -63,3 +63,20 @@ button:hover {
   height: 3rem;
   box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
 }
+@media (max-width: 1135px) and (min-width: 657px) {
+  input {
+    position: relative;
+    right: 0;
+  }
+  button {
+    position: relative;
+    right: 0;
+  }
+}
+@media (max-width: 656px) {
+  body {
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+  }
+}
