@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="inputs">
+          <input type="text" id="cityname" placeholder="City Name" />
+          <button id="check-button">Go</button>
+        </div>
+        <div class="detailes">
+          <p>City Name : <span id="yourCityName-here"></span></p>
+          <p>Country Name : <span id="countryName-here"></span></p>
+          <p>Temperature : <span id="temp-here"></span></p>
+          <p>Humidity : <span id="humidity-here"></span></p>
+          <p>Weather : <span id="weather-here"></span></p>
+          <p>Weather Description : <span id="weather-dec-here"></span></p>
+        </div>
+      </div>
+    </main>
+    <!-- Scripts tags -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
